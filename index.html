@@ -258,7 +258,7 @@ section{padding:110px 0;position:relative}
 .review .who{margin-top:18px;font-size:.85rem;color:var(--text-mute);border-top:1px solid var(--line);padding-top:16px}
 
 /* ===================== 전문가 ===================== */
-.experts{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.experts{display:grid;grid-template-columns:repeat(2,minmax(0,360px));gap:28px;justify-content:center}
 .expert{background:var(--bg-card);border:1px solid var(--line);border-radius:var(--radius);
   overflow:hidden;transition:transform .35s var(--ease),border-color .35s}
 .expert:hover{transform:translateY(-6px);border-color:rgba(200,169,106,.5)}
@@ -342,7 +342,7 @@ footer{background:#0a0c0f;border-top:1px solid var(--line);padding:60px 0 40px}
   .stats{grid-template-columns:repeat(2,1fr)}
   .about-grid,.map-grid{grid-template-columns:1fr;gap:34px}
   .cards,.reviews{grid-template-columns:1fr}
-  .experts{grid-template-columns:repeat(2,1fr)}
+  .experts{grid-template-columns:minmax(0,420px)}
   .gallery{grid-template-columns:1fr;grid-template-rows:none;height:auto}
   .gallery figure{height:240px}
   .gallery figure:nth-child(1){grid-row:auto;height:300px}
@@ -526,24 +526,6 @@ footer{background:#0a0c0f;border-top:1px solid var(--line);padding:60px 0 40px}
           <h3>정민 <span style="color:var(--text-soft);font-weight:600;font-size:.92rem">수석실장</span></h3>
           <p>풍부한 현장 경험을 바탕으로 탈모·두피 집중 케어 프로그램을 전담합니다.</p>
           <div class="expert-tags"><span>탈모 케어</span><span>두피 스케일링</span></div>
-        </div>
-      </article>
-      <article class="expert">
-        <div class="photo"><img src="images/expert-sua.jpeg" alt="천안 리차드 프로헤어 50호점 수아 두피실장"></div>
-        <div class="expert-body">
-          <span class="role eng">SCALP MANAGER</span>
-          <h3>수아 <span style="color:var(--text-soft);font-weight:600;font-size:.92rem">두피실장</span></h3>
-          <p>섬세한 손길로 민감성·지루성 두피 케어와 고객별 맞춤 관리를 진행합니다.</p>
-          <div class="expert-tags"><span>민감성 케어</span><span>지루성 케어</span></div>
-        </div>
-      </article>
-      <article class="expert">
-        <div class="photo"><img src="images/expert-rin.jpeg" alt="천안 리차드 프로헤어 50호점 린 두피실장"></div>
-        <div class="expert-body">
-          <span class="role eng">SCALP MANAGER</span>
-          <h3>린 <span style="color:var(--text-soft);font-weight:600;font-size:.92rem">두피실장</span></h3>
-          <p>새치·흰머리 케어와 모발 홈케어 상담까지 친절하게 안내해 드립니다.</p>
-          <div class="expert-tags"><span>새치·흰머리</span><span>모발 케어</span></div>
         </div>
       </article>
     </div>
